@@ -11,33 +11,46 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container-fluid bg-secondary p-3 mt-3 justify-content-center">
+    <div class="container-fluid bg-dark text-white p-3 mt-3 justify-content-center text-center">
         <h1>Treinando containers com bootstrap</h1>
     </div>
 
+    <div class="card" style="width: 18rem;">
+        <img src="/imgs/CORINTHIANS.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">SPORT CLUBE CORINTHIANS PAULISTA</h5>
+          <p class="card-text">Pai do Palmeiras</p>
+          <a href="https://www.meutimao.com.br/" class="btn btn-primary">Site MEU TIMÃO</a>
+        </div>
+      </div>
+
     <div class="container bg-primary p-3 mt-3 justify-content-center">
-        <div class="col-12">CONTEUDO 01</div>
-        <div class="col-12">CONTEUDO 02</div>
-        <div class="col-12">CONTEUDO 03</div>
-        <div class="col-12">CONTEUDO 04</div>
-        <div class="col-12">CONTEUDO 05</div>
-        <div class="col-12">CONTEUDO 06</div>
-        <div class="col-12">CONTEUDO 07</div>
-        <div class="col-12">CONTEUDO 08</div>
-        <div class="col-12">CONTEUDO 09</div>
-        <div class="col-12">CONTEUDO 10</div>
-        <div class="col-12">CONTEUDO 11</div>
-        <div class="col-12">CONTEUDO 12</div>
-        <div class="col-12">CONTEUDO 13</div>
-        <div class="col-12">CONTEUDO 14</div>
-        <div class="col-12">CONTEUDO 15</div>
-        <div class="col-12">CONTEUDO 16</div>
-        <div class="col-12">CONTEUDO 17</div>
-        <div class="col-12">CONTEUDO 18</div>
-        <div class="col-12">CONTEUDO 19</div>
+       <p>Sport Club Corinthians Paulista, comumente referido como Corinthians, ou ainda pelo seu acrônimo SCCP, é um clube poliesportivo brasileiro da cidade de São Paulo, capital do estado de São Paulo. Foi fundado como uma equipe de futebol no dia 1 de setembro de 1910 por um grupo de operários anarco-sindicalistas na região da Ponte Grande, no bairro do Bom Retiro. Seu nome foi inspirado no Corinthian Football Club de Londres, que excursionava pelo Brasil.</p>
     </div>
 
-    <div class="container-fluid bg-success p-3 mt-3 justify-content-center">
+      <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Pergunta Rápida
+      </button>
+      
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">MEU TIMÃO</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                O CORINTHIANS é o melhor time do Brasil?
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sim</button>
+              <button type="button" class="btn btn-primary">Claro</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="container-fluid bg-dark text-white p-3 mt-3 justify-content-center text-center">
         <h3>Footer</h3>
     </div>
 
